@@ -1,0 +1,13 @@
+{
+    "name": "amirreza/phprequester",
+    "description": "A Requester PHP Application",
+    "autoload": {
+        "psr-4": {
+            "Amirreza\\Phprequester\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "larapack/dd": "1.*"
+    }
+}
